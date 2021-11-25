@@ -21,7 +21,7 @@ a{
 }
 .apply-section{
   width: 80%;
-  margin: 5% auto 0 auto;
+  margin: 5% auto 2% auto;
   height: 100%;
 }
 footer{
@@ -34,5 +34,6 @@ footer{
   /* For a screen < 720px, this CSS will be read */
   .apply-section{
     width: 100%;
+    margin:0;
   }
 }
