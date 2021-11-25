@@ -1,0 +1,16 @@
+.banner{
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.6)), url("../../img/bkg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 15% 0;
+}
+
+.banner h1{
+  font-size: 6rem;
+  color: #ffffff;
+}
+.banner h2{
+  font-weight: lighter;
+  color: #ffffff;
+  margin-bottom: 5%;
+}
