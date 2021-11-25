@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@400;500&display=swap');
+@import url('components/container.css');
+@import url('components/avatar.css');
+@import url('components/button.css');
+@import url('components/banner.css');
+@import url('components/card.css');
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background-image:linear-gradient(to bottom, #ffffff 90%, #A9C9CB);
+}
+h1, h2{
+  font-family: 'Ubuntu', sans-serif;
+}
+h2{
+  font-size: 3rem;
+}
+a{
+  text-decoration: none;
+}
+.apply-section{
+  width: 80%;
+  margin: 5% auto;
+  height: 100%;
+}
+footer{
+  background-color: #667E91;
+  text-align: center;
+  padding: 2px;
+  color: #ffffff;
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .apply-section{
+    width: 100%;
+  }
+}
