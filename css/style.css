@@ -8,7 +8,7 @@
 body{
   font-family: 'Open Sans', sans-serif;
   margin: 0;
-  background-image:linear-gradient(to bottom, #ffffff 80%, #A9C9CB);
+  background-image:linear-gradient(to bottom, #ffffff 90%, #A9C9CB);
 }
 h1, h2{
   font-family: 'Ubuntu', sans-serif;
@@ -22,10 +22,15 @@ a{
 .apply-section{
   width: 80%;
   margin: 5% auto;
-  height: 100%;
 }
 footer{
   background-color: #76ACFF;
   text-align: center;
   padding: 1%;
+}
+@media (max-width: 720px) {
+  .apply-section{
+  width: 100%;
+  margin: 0;
+  }
 }
