@@ -24,9 +24,10 @@ a{
   margin: 5% auto;
 }
 footer{
-  background-color: #76ACFF;
+  background-color: #667E91;
   text-align: center;
-  padding: 1%;
+  padding: 2px;
+  color: #ffffff;
 }
 @media (max-width: 720px) {
   .apply-section{
